@@ -24,7 +24,10 @@
     <style>
         /* use navbar-wrapper to wrap navigation bar, the purpose is to overlay navigation bar above slider */
         .navbar-wrapper {
-            position: absolute;
+            position: relative;
+            top: 0px;
+        }
+        /*    position: absolute;
             top: 20px;
             left: 0;
             width: 100%;
@@ -39,7 +42,7 @@
                 position: relative;
                 top: 0px;
             }
-        }
+        }*/
     </style>
     <div class="navbar-wrapper">
         <div class="container">
@@ -75,12 +78,12 @@
     <!--TODO: class 이름을 바꾸고 싶은데-->
     <div>
         <hr class="featurette-divider">
-            <div id="home" class="row featurette">
-                <img class"img-responsive" width="100%" max-width="100%" src="img/DSC07493_resize.jpg">
-                    <div style="position: absolute; top: 100px; right: 0.5em; width: 400px; font-weight: bold;  font-size: 50px; text-align: right; color: #000;">
-                    <h1>2015년 5월 17일</h1>
-                    <h2>오후 1시 30분</h2>
-                    <h4>잠실 더 컨벤션 교통회관 아무르홀</h4>
+            <div id="home" style="max-width: 1920px;">
+                <img class"img-responsive" width="100%" max-width="1920px" src="img/DSC07493_resize.jpg">
+                    <div style="position: absolute; top: 100px; right: 0.5em; width: 800px;">
+                    <div style="max-width: 1920px; font-weight: bold;  font-size: 50px; text-align: right; color: #000;">2015년 5월 17일</div>
+                    <div style="max-width: 1920px; font-weight: bold;  font-size: 40px; text-align: right; color: #000;">오후 1시 30분</div>
+                    <div style="max-width: 1920px; font-weight: bold;  font-size: 30px; text-align: right; color: #000;">잠실 더 컨벤션 교통회관 아무르홀</div>
                     </div>
                     
                 </div>
@@ -107,30 +110,49 @@
         <hr class="featurette-divider">
 
         <!-- 약도 -->
-        <div  id="map" class="row featurette">
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div id="map" class="row featurette">
+            <div style="max-width: 594px;">
+                <img class"img-responsive" width="100%" max-width="594px" src="http://www.theconvention.co.kr/images/contents/img_location1.gif">
             </div>
             <div class="col-md-7">
                 <h2 class="featurette-heading">오시는 길</h2>
-                <p class="lead">약도와 교통편.<br>
-                  약도와 교통편.<br>
-                  약도와 교통편.<br>
-                  약도와 교통편.<br>
-                  약도와 교통편.<br>
-                  약도와 교통편.<br>
+                <p class="lead">
+                    <div><h3 class="featurette-heading">지하철 이용시</h3>
+                        2호선 잠실역 8번 출구 약 300m<br>
+                        8호선 잠실역 9번 출구 약 30m<br>
+                    </div>
+                    <div><h3 class="featurette-heading">버스 이용시</h3>
+                        간선버스(파랑) : 301, 302, 303, 320, 333, 341, 351, 352, 360, N13<br>
+                        지선버스(녹색) : 2311, 2412, 2415, 3216, 3217, 3313, 3314, 3315, 3317, 3318, 3319, 3411, 3412, 3413, 3414, 4318, 4319<br>
+                        경기버스(일반) : 16, 30-1, 30-3, 30-5, 32, 70, 100, 101, 116, 1192002-2<br>
+                        경기버스(직행) : 500-1, 1000, 1000-1, 1000-2, 1000-3, 1001, 1007, 1007-1, 1009, 1100, 1112, 1115-6, 1117, 1200, 1650, 1670, 1700, 2000, 2000-1, 2000-2, 5600, 5700, 6900, 7007, 7007-2, 8001, 8002, 8002-2, 8011, 8012, 9005
+                        시외버스 : 1310, 1801, 1810, 3300, 7000, 8015, 8142, 8143, 8147, 8153
+                        광역버스 : 9403, M2316, M2323
+                        공항버스 : 6000, 6006
+                    </div>
+                    <div><h3 class="featurette-heading">승용차 이용시</h3>
+                        서울외곽순환고속도로 이용 (경부·중부고속도로 연결)<br>
+                        송파IC - 장지역 - 가락시장역 - 석촌역 - 잠실역사거리 - 송파구청<br>
+                        서하남IC - 둔촌사거리 - 올림픽공원사거리 - 몽촌토성역 - 송파구청<br>
+                        강변북로·올림픽대로 이용<br>
+                        잠실대교 남단 - 잠실역사거리 - 송파구청<br>
+                    </div>
+                    <div><h3 class="featurette-heading">주차 안내</h3>
+                        평일·주말<br>
+                        교통회관 지상·지하 주차장 이용 (2시간 무료주차)<br>
+                    </div>
                 </p>
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div style="min-height: 50px;">
+        <div style="min-height: 50px; max-width=1920px;">
             <!-- Jssor Slider Begin -->
             <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
             <!-- ================================================== -->
             <div id="slider1_container" style="display: none; position: relative; margin: 0 auto;
-            top: 0px; left: 0px; width: 1200px; height: 800px; overflow: hidden;">
+            top: 0px; left: 0px; width: 1920px; height: 1440px; overflow: hidden;">
                 <!-- Loading Screen -->
                 <div u="loading" style="position: absolute; top: 0px; left: 0px;">
                     <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
@@ -141,7 +163,7 @@
                     </div>
                 </div>
                 <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 800px; overflow: hidden;">
+                <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1920px; height: 1440px; overflow: hidden;">
                         <div>
                             <img u="image" src2="img/DSC07333_resize.jpg" />
                         </div>
@@ -170,16 +192,16 @@
                 <style>
                     /* jssor slider bullet navigator skin 05 css */
                     /*
-                    .jssorb21 div           (normal)
-                    .jssorb21 div:hover     (normal mouseover)
-                    .jssorb21 .av           (active)
-                    .jssorb21 .av:hover     (active mouseover)
-                    .jssorb21 .dn           (mousedown)
+                    .jssorb05 div           (normal)
+                    .jssorb05 div:hover     (normal mouseover)
+                    .jssorb05 .av           (active)
+                    .jssorb05 .av:hover     (active mouseover)
+                    .jssorb05 .dn           (mousedown)
                     */
-                    .jssorb21 {
+                    .jssorb05 {
                         position: absolute;
                     }
-                    .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+                    .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
                         position: absolute;
                         /* size of bullet elment */
                         width: 19px;
@@ -188,17 +210,17 @@
                         line-height: 19px;
                         color: white;
                         font-size: 12px;
-                        background: url(img/b21.png) no-repeat;
+                        background: url(img/b05.png) no-repeat;
                         overflow: hidden;
                         cursor: pointer;
                     }
-                    .jssorb21 div { background-position: -7px -7px; }
-                    .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -37px -7px; }
-                    .jssorb21 .av { background-position: -67px -7px; }
-                    .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -97px -7px; }
+                    .jssorb05 div { background-position: -7px -7px; }
+                    .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+                    .jssorb05 .av { background-position: -67px -7px; }
+                    .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
                 </style>
                 <!-- bullet navigator container -->
-                <div u="navigator" class="jssorb21" style="bottom: 16px; right: 6px;">
+                <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
                     <!-- bullet navigator item prototype -->
                     <div u="prototype"></div>
                 </div>
@@ -317,10 +339,9 @@
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizes
             function ScaleSlider() {
-                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
-                if (parentWidth) {
-                    jssor_slider1.$ScaleWidth(parentWidth - 30);
-                }
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
                 else
                     window.setTimeout(ScaleSlider, 30);
             }
