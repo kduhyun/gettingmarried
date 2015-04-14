@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>결혼합니다.</title>
+    <title>서동환 ♡ 손유진 저희 결혼합니다.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap/bootstrap.navbar.css" rel="stylesheet" />
+    <link href="bootstrap/bootstrap.imgslider.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -21,149 +24,123 @@
 
     <!-- NAVBAR
     ================================================== -->
-    <style>
-        /* use navbar-wrapper to wrap navigation bar, the purpose is to overlay navigation bar above slider */
-        .navbar-wrapper {
-            position: relative;
-            top: 0px;
-        }
-        /*    position: absolute;
-            top: 20px;
-            left: 0;
-            width: 100%;
-            height: 51px;
-        }
-        .navbar-wrapper > .container {
-            padding: 0;
-        }
-
-        @media all and (max-width: 768px ){
-            .navbar-wrapper {
-                position: relative;
-                top: 0px;
-            }
-        }*/
-    </style>
-    <div class="navbar-wrapper">
+<!--     <div class="navbar-wrapper">
         <div class="container">
 
             <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0px;">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#home">첫화면</a></li>
-                            <li><a href="#intro">소개</a></li>
-                            <li><a href="#map">오시는 길</a></li>
-                            <li><a href="#photos">사진첩</a></li>
-                        </ul>
-                    </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#home">첫화면</a></li>
+                        <li><a href="#intro">소개</a></li>
+                        <li><a href="#map">오시는 길</a></li>
+                        <li><a href="#photos">사진첩</a></li>
+                    </ul>
                 </div>
             </nav>
 
         </div>
-    </div>
+    </div> -->
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <!--TODO: class 이름을 바꾸고 싶은데-->
-    <div>
-        <hr class="featurette-divider">
+    <div class="container">
             <div id="home" style="max-width: 1920px;">
-                <img class"img-responsive" width="100%" max-width="1920px" src="img/DSC07493_resize.jpg">
-                    <div style="position: absolute; top: 100px; right: 0.5em; width: 800px;">
-                    <div style="max-width: 1920px; font-weight: bold;  font-size: 50px; text-align: right; color: #000;">2015년 5월 17일</div>
-                    <div style="max-width: 1920px; font-weight: bold;  font-size: 40px; text-align: right; color: #000;">오후 1시 30분</div>
-                    <div style="max-width: 1920px; font-weight: bold;  font-size: 30px; text-align: right; color: #000;">잠실 더 컨벤션 교통회관 아무르홀</div>
+
+                <img class"img-responsive" width="100%" max-width="1920px" src="img/DSC07493_resize.jpg"> <!-- 소개글 -->
+                <div id="intro" class="row featurette">
+                    <div class="col-md-12 carousel-caption" style="top: 0px; left: 0px; color:#000;">
+                        <h1 style="text-align: center;">서동환 <img src="img/yellow_heart.png"/> 손유진</h1>
+                        <h2 style="text-align: center;">저희 결혼합니다.</h2>
+                        <h3 style="text-align: center;">
+                            귀한 시간 내어 축하해 주세요.<br>
+                        </h3>
+                        <p class="lead" style="text-align: center;">
+                            2015년 5월 17일 오후 1시 30분<br/>
+                            잠실 더 컨벤션 교통회관 3층 아무르홀
+                        </p>
                     </div>
-                    
                 </div>
+                <!-- <div class="carousel-caption" style="position: absolute; top: 0px; right: 0px; font-weight: bold; text-align: right; color: #fff;">
+                    <h1 class="featurette-heading">2015년 5월 17일</h1>
+                    <h1 class="featurette-heading">오후 1시 30분</h1>
+                    <h4>잠실 더 컨벤션 교통회관 아무르홀</h4>
+                </div> -->
             </div>
 
-        <hr class="featurette-divider">
-
-        <!-- 소개글 -->
-        <div id="intro" class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">손유진 서동환 결혼합니다.</h2>
-            <p class="lead">
-              결혼합니다.<br>
-              결혼합니다.<br>
-              결혼합니다.<br>
-              결혼합니다.<br>
-              결혼합니다.<br>
-              결혼합니다.<br>
-              결혼합니다.<br>
-            </p>
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
+        <hr class="featurette-divider"/>
 
         <!-- 약도 -->
-        <div id="map" class="row featurette">
-            <div style="max-width: 594px;">
+        <div id="map" class="container">
+        <div class="row featurette">
+            <div class="col-md-12"  style="text-align: center;">
+                <h1>오시는 길</h1>
+            </div>
+        </div>
+        <div class="row featurette">
+            <div class="col-md-7"style="max-width: 594px;"><br>
                 <img class"img-responsive" width="100%" max-width="594px" src="http://www.theconvention.co.kr/images/contents/img_location1.gif">
             </div>
-            <div class="col-md-7">
-                <h2 class="featurette-heading">오시는 길</h2>
+            <div class="col-md-5">
                 <p class="lead">
-                    <div><h3 class="featurette-heading">지하철 이용시</h3>
+                    <div>
+                        <h4>지하철 이용시</h4>
                         2호선 잠실역 8번 출구 약 300m<br>
                         8호선 잠실역 9번 출구 약 30m<br>
                     </div>
-                    <div><h3 class="featurette-heading">버스 이용시</h3>
+                    <div>
+                        <h4>버스 이용시</h4>
                         간선버스(파랑) : 301, 302, 303, 320, 333, 341, 351, 352, 360, N13<br>
                         지선버스(녹색) : 2311, 2412, 2415, 3216, 3217, 3313, 3314, 3315, 3317, 3318, 3319, 3411, 3412, 3413, 3414, 4318, 4319<br>
                         경기버스(일반) : 16, 30-1, 30-3, 30-5, 32, 70, 100, 101, 116, 1192002-2<br>
-                        경기버스(직행) : 500-1, 1000, 1000-1, 1000-2, 1000-3, 1001, 1007, 1007-1, 1009, 1100, 1112, 1115-6, 1117, 1200, 1650, 1670, 1700, 2000, 2000-1, 2000-2, 5600, 5700, 6900, 7007, 7007-2, 8001, 8002, 8002-2, 8011, 8012, 9005
-                        시외버스 : 1310, 1801, 1810, 3300, 7000, 8015, 8142, 8143, 8147, 8153
-                        광역버스 : 9403, M2316, M2323
-                        공항버스 : 6000, 6006
+                        경기버스(직행) : 500-1, 1000, 1000-1, 1000-2, 1000-3, 1001, 1007, 1007-1, 1009, 1100, 1112, 1115-6, 1117, 1200, 1650, 1670, 1700, 2000, 2000-1, 2000-2, 5600, 5700, 6900, 7007, 7007-2, 8001, 8002, 8002-2, 8011, 8012, 9005<br>
+                        시외버스 : 1310, 1801, 1810, 3300, 7000, 8015, 8142, 8143, 8147, 8153<br>
+                        광역버스 : 9403, M2316, M2323<br>
+                        공항버스 : 6000, 6006<br>
                     </div>
-                    <div><h3 class="featurette-heading">승용차 이용시</h3>
+                    <div>
+                        <h4>승용차 이용시</h4>
                         서울외곽순환고속도로 이용 (경부·중부고속도로 연결)<br>
                         송파IC - 장지역 - 가락시장역 - 석촌역 - 잠실역사거리 - 송파구청<br>
                         서하남IC - 둔촌사거리 - 올림픽공원사거리 - 몽촌토성역 - 송파구청<br>
                         강변북로·올림픽대로 이용<br>
                         잠실대교 남단 - 잠실역사거리 - 송파구청<br>
                     </div>
-                    <div><h3 class="featurette-heading">주차 안내</h3>
+                    <div>
+                        <h4>주차 안내</h4>
                         평일·주말<br>
                         교통회관 지상·지하 주차장 이용 (2시간 무료주차)<br>
                     </div>
                 </p>
             </div>
         </div>
+        <div class="row featurette">
+            <div class="col-md-12"  style="text-align: center;">
+                <h6><br>도로와 주차공간이 협소한 편이니 가급적 대중교통을 이용해 주시기를 부탁드립니다.</h6>
+            </div>
+        </div>
+    </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider"/>
 
-        <div style="min-height: 50px; max-width=1920px;">
+        <div class="container marketing">
+        <div class="row" style="min-height: 50px; max-width: 1920px;">
             <!-- Jssor Slider Begin -->
             <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
             <!-- ================================================== -->
-            <div id="slider1_container" style="display: none; position: relative; margin: 0 auto;
-            top: 0px; left: 0px; width: 1920px; height: 1440px; overflow: hidden;">
-                <!-- Loading Screen -->
-                <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
-                    top: 0px; left: 0px; width: 100%; height: 100%;">
-                    </div>
-                    <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
-                    top: 0px; left: 0px; width: 100%; height: 100%;">
-                    </div>
-                </div>
+            <div id="slider1_container" class="slider">
                 <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1920px; height: 1440px; overflow: hidden;">
+                <div u="slides" class="slider-img" style="top: 0px; left: 0px;">
                         <div>
                             <img u="image" src2="img/DSC07333_resize.jpg" />
                         </div>
@@ -187,38 +164,6 @@
                         </div>
                     </div>
                 
-                <!--#region Bullet Navigator Skin Begin -->
-                <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
-                <style>
-                    /* jssor slider bullet navigator skin 05 css */
-                    /*
-                    .jssorb05 div           (normal)
-                    .jssorb05 div:hover     (normal mouseover)
-                    .jssorb05 .av           (active)
-                    .jssorb05 .av:hover     (active mouseover)
-                    .jssorb05 .dn           (mousedown)
-                    */
-                    .jssorb05 {
-                        position: absolute;
-                    }
-                    .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-                        position: absolute;
-                        /* size of bullet elment */
-                        width: 19px;
-                        height: 19px;
-                        text-align: center;
-                        line-height: 19px;
-                        color: white;
-                        font-size: 12px;
-                        background: url(img/b05.png) no-repeat;
-                        overflow: hidden;
-                        cursor: pointer;
-                    }
-                    .jssorb05 div { background-position: -7px -7px; }
-                    .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-                    .jssorb05 .av { background-position: -67px -7px; }
-                    .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
-                </style>
                 <!-- bullet navigator container -->
                 <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
                     <!-- bullet navigator item prototype -->
@@ -226,35 +171,6 @@
                 </div>
                 <!--#endregion Bullet Navigator Skin End -->
                 
-                <!--#region Arrow Navigator Skin Begin -->
-                <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
-                <style>
-                    /* jssor slider arrow navigator skin 11 css */
-                    /*
-                    .jssora11l                  (normal)
-                    .jssora11r                  (normal)
-                    .jssora11l:hover            (normal mouseover)
-                    .jssora11r:hover            (normal mouseover)
-                    .jssora11l.jssora11ldn      (mousedown)
-                    .jssora11r.jssora11rdn      (mousedown)
-                    */
-                    .jssora11l, .jssora11r {
-                        display: block;
-                        position: absolute;
-                        /* size of arrow element */
-                        width: 37px;
-                        height: 37px;
-                        cursor: pointer;
-                        background: url(img/a11.png) no-repeat;
-                        overflow: hidden;
-                    }
-                    .jssora11l { background-position: -11px -41px; }
-                    .jssora11r { background-position: -71px -41px; }
-                    .jssora11l:hover { background-position: -131px -41px; }
-                    .jssora11r:hover { background-position: -191px -41px; }
-                    .jssora11l.jssora11ldn { background-position: -251px -41px; }
-                    .jssora11r.jssora11rdn { background-position: -311px -41px; }
-                </style>
                 <!-- Arrow Left -->
                 <span u="arrowleft" class="jssora11l" style="top: 123px; left: 8px;">
                 </span>
@@ -263,15 +179,17 @@
                 </span>
                 <!--#endregion Arrow Navigator Skin End -->
             </div>
+        </div>
+        </div>
         <!-- Jssor Slider End -->
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider"/>
 
         <!-- /END THE FEATURETTES -->
         <!-- FOOTER -->
         <footer>
-            <p class="pull-right"><a href="#">top</a></p>
-            <p>&copy; Jssor Slider 2009 - 2014. &middot; <a href="#">Privacy</a> &middot; </p>
+            <p class="pull-right"><a href="#">맨위로</a></p>
+            <p>&copy; 2015. 서동환  &middot;</p>
         </footer>
 
     </div><!-- /.container -->
@@ -341,7 +259,7 @@
             function ScaleSlider() {
                 var bodyWidth = document.body.clientWidth;
                 if (bodyWidth)
-                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1170));
                 else
                     window.setTimeout(ScaleSlider, 30);
             }
