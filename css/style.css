@@ -4,10 +4,8 @@
   padding-right: 15px;
 }
 
-.carousel-caption p {
-  margin-bottom: 10px;
-  font-size: 21px;
-  line-height: 1.4;
+.black-shadow{
+  text-shadow:0 0px 2px rgba(0,0,0,.9)
 }
 
 /* RESPONSIVE CSS
