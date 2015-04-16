@@ -1,7 +1,5 @@
-
-
 // 사용할 앱의 Javascript 키를 설정해 주세요.
-Kakao.init('dd40956cd6c121d02637f9f44103a411');
+Kakao.init('48d26996831aea00b4cc73e7b14a7873');
 
 // 카카오톡 링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
 Kakao.Link.createTalkLinkButton({
