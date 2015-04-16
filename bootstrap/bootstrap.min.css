@@ -2,7 +2,10 @@
  * Bootstrap v3.3.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{
+ *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+html{
 	font-family:"NanumMyeongjo","나눔명조","Malgun Gothic","맑은 고딕",sans-serif;
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%
