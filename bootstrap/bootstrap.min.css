@@ -6,7 +6,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
 html{
-	font-family:"NanumMyeongjo","나눔명조","Malgun Gothic","맑은 고딕",sans-serif;
+	font-family:"Nanum Myeongjo","Malgun Gothic","맑은 고딕",sans-serif;
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%
 }
@@ -1109,7 +1109,7 @@ html{
 }
 
 body{
-	font-family:"NanumMyeongjo","나눔명조","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Nanum Myeongjo","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	line-height:1.42857143;
 	color:#333;
